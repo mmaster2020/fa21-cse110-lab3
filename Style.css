@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(151, 199, 199); /*here we are making the background color*/
+  }
+  h2 {
+    background-color: black;
+    color: green;
+  }
+  h1 {
+    text-align: center;
+    text-decoration: wavy overline blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+video{
+    position: inherit;
+}
+img{
+    height: 500px;
+    width: 1300px;
+    max-width: 50%;
+    min-width: 10%;
+    position: static;
+}
+.blockforparagraphs,
+p {
+  border: 0.25em dotted rgb(0, 0, 0);
+  border-radius: 1.5cm 5.3mm;
+  padding: 0.2in, 20px, 10px, 10px;
+  margin: 20px, 20px, 0.5vw, 0.5vh;
+  display: inline;
+}
+.blocksh3,
+h3{
+    border-style: double;
+    border-color: green;
+    border-width: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+button:hover {
+    color:#FF0000;
+  }
+button:active{
+    color: hsl(140, 100%, 23%); /*christmas color for button*/
+}  
+.formatting{
+    color: coral;
+}
+a[href="https://www.linkedin.com/in/thomasapowell/"] {
+    color:brown;
+}
+ul li {
+    list-style-type: circle;
+  }
+div > span {
+    font-variant-caps: small-caps;
+}
+div ~ span{
+    background-color: red;
+}
