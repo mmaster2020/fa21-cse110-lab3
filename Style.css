@@ -1,3 +1,4 @@
+@media screen and (min-width: 500px) {
 body {
     background-color: rgb(151, 199, 199); /*here we are making the background color*/
   }
@@ -13,16 +14,16 @@ body {
 video{
     position: inherit;
 }
-img{
-    height: 500px;
-    width: 1300px;
+.logo{
+    height: 400px;
+    width: 500px;
     max-width: 50%;
-    min-width: 10%;
+    min-width: 50%;
     position: static;
 }
 .blockforparagraphs,
 p {
-  border: 0.25em dotted rgb(0, 0, 0);
+  border: 0.1em dotted rgb(0, 0, 0);
   border-radius: 1.5cm 5.3mm;
   padding: 0.2in, 20px, 10px, 10px;
   margin: 20px, 20px, 0.5vw, 0.5vh;
@@ -62,6 +63,59 @@ ul li {
 div > span {
     font-variant-caps: small-caps;
 }
-div ~ span{
-    background-color: red;
+span ~ p{
+    font-weight: bold;
+}
+h5 + h6{
+    text-decoration: underline;
+}
+h7, h8{
+    font-family:cursive;
+}
+img{
+    width: 300px;
+    height: 300px;
+    flex-grow: 3;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: inherit;
+    flex-flow: column wrap;
+}
+
+.a{
+    width: 200px;
+    height: 200px;
+}
+.b{
+    width: 200px;
+    height: 200px;
+}
+.c{
+    width: 200px;
+    height: 200px;
+}
+.d{
+    width: 200px;
+    height: 200px;
+}
+.e{
+    width: 200px;
+    height: 200px;
+}
+.f{
+    width: 200px;
+    height: 200px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 210px 210px;
+    grid-area: auto;
+}
+* {
+    color: gold;
+}
 }
